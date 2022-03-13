@@ -31,7 +31,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void Enfrentar_Personajes_Torre_Propia()
+        public void Enfrentar_Personajes_Obstaculo_Torre_Propia()
         {
             // ••• Jugador vs Obstáculo en torre propia: Siempre gana el jugador
         }
