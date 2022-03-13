@@ -4,5 +4,6 @@ public class Enemigo
 {
 	public Enemigo()
 	{
+
 	}
 }
