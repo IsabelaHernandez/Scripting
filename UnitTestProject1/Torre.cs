@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 public class Torre
 {
+	
+	Jugador jugador = new Jugador();
+
 	List<int> TorreJugador; 
 	public Torre()
 	{
@@ -11,10 +14,9 @@ public class Torre
 
 		TorreJugador = new List<int>(pisos);
 
-		for (int i = 0; i < pisos; i ++){
+		int posicion = rd.Next(0,pisos);
 
-			jugador.Jugador = TorreJugador[i];
-		}
+		TorreJugador[posicion] = jugador;
 	}
 
 	//Sobrecarga
@@ -26,10 +28,8 @@ public class Torre
 
 		List<int> TorreJugador = new List<int>(pisos);
 
-		for (int i = 0; i < pisos; i++)
-		{
-			jugador.Jugador = TorreJugador[i];
-		}
+		int posicion = rd.Next(0,pisos);
 
+		TorreJugador[posicion] = jugador;
 	}
 }

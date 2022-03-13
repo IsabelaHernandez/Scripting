@@ -2,7 +2,7 @@
 
 public class Jugador
 {
-	public Jugador()
+	public Atributos()
 	{
 		int vidas = 5;
 
