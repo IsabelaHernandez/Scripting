@@ -8,7 +8,22 @@ namespace UnitTestProject1
         [TestMethod]
         public void Crear_Torre()
         {
-            //Crear una torre con n niveles. Las torres siempre deben tener al menos un nivel
+            //Vectores de prueba (Valores arbitrarios)
+            int[] opcionesCorrectas = { 1, 3, 5, 7 };
+            int[] opcionesErroneas = { 0, -1, -3, -5 }; 
+
+            for (int i= 0; i < opcionesCorrectas.Length; i++) //Recorrer vectores correctos
+            {
+                //Torre Torre = new Torre(opcionesCorrectas[i]);
+
+
+            }
+
+            for (int i = 0; i < opcionesErroneas.Length; i++) //Recorrer vectores Erroneos
+            {
+
+            }
+
         }
 
         [TestMethod]
