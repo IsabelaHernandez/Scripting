@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\Pruebas_unitarias\\Pruebas_unitarias.csproj": {}
+    "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\UnitTestProject1\\UnitTestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\Pruebas_unitarias\\Pruebas_unitarias.csproj": {
+    "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\UnitTestProject1\\UnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\Pruebas_unitarias\\Pruebas_unitarias.csproj",
-        "projectName": "Pruebas_unitarias",
-        "projectPath": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\Pruebas_unitarias\\Pruebas_unitarias.csproj",
+        "projectUniqueName": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\UnitTestProject1\\UnitTestProject1.csproj",
+        "projectName": "UnitTestProject1",
+        "projectPath": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\UnitTestProject1\\UnitTestProject1.csproj",
         "packagesPath": "C:\\Users\\isabe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\Pruebas_unitarias\\obj\\",
+        "outputPath": "C:\\Users\\isabe\\DOCS\\UNIVERSIDAD\\QUINTO SEMESTRE\\Scripting\\Final\\Scripting\\UnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
