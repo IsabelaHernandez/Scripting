@@ -2,7 +2,7 @@
 
 public class Jugador
 {
-	public Atributos()
+	/*public Atributos()
 	{
 		int vidas = 5;
 
@@ -10,5 +10,5 @@ public class Jugador
  
         int puntos = rd.Next(0,11);
 
-	}
-}
+	} */
+} 

@@ -28,8 +28,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void Crear_Personaje()
         {
-            //Crear un personaje con un valor inicial. Dicho valor siempre debe ser mayor a 0.
-         
+            //Crear un personaje con un valor inicial. Dicho valor siempre debe ser mayor a 0.  
 
         }
 
