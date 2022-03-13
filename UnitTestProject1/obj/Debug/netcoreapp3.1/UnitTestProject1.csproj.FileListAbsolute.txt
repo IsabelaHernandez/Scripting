@@ -1,0 +1,4 @@
+C:\Users\isabe\DOCS\UNIVERSIDAD\QUINTO SEMESTRE\Scripting\Final\Scripting\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\isabe\DOCS\UNIVERSIDAD\QUINTO SEMESTRE\Scripting\Final\Scripting\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\isabe\DOCS\UNIVERSIDAD\QUINTO SEMESTRE\Scripting\Final\Scripting\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.AssemblyInfo.cs
+C:\Users\isabe\DOCS\UNIVERSIDAD\QUINTO SEMESTRE\Scripting\Final\Scripting\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.csproj.CoreCompileInputs.cache

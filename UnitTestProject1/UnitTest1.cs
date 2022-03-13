@@ -14,13 +14,14 @@ namespace UnitTestProject1
 
             for (int i= 0; i < opcionesCorrectas.Length; i++) //Recorrer vectores correctos
             {
-                Torre Torre = new Torre(opcionesCorrectas[i]);
-                Assert.IsTrue(Torre.Torre.count >= 1, "Error");
+                Torre torre = new Torre(opcionesCorrectas[i]);
+                Assert.IsTrue(torre.TorreJugador.Count >= 1, "Error");
             }
 
             for (int i = 0; i < opcionesErroneas.Length; i++) //Recorrer vectores Erroneos
             {
-                Assert.IsFalse(Torre.Torre.count < 1, "Error"); 
+                Torre torre = new Torre(opcionesErroneas[i]);
+                Assert.IsFalse(torre.TorreJugador.Count < 1, "Error"); 
             }
         }
 
@@ -28,6 +29,8 @@ namespace UnitTestProject1
         public void Crear_Personaje()
         {
             //Crear un personaje con un valor inicial. Dicho valor siempre debe ser mayor a 0.
+         
+
         }
 
         [TestMethod]
