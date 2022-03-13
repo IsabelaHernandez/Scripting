@@ -14,16 +14,14 @@ namespace UnitTestProject1
 
             for (int i= 0; i < opcionesCorrectas.Length; i++) //Recorrer vectores correctos
             {
-                //Torre Torre = new Torre(opcionesCorrectas[i]);
-
-
+                Torre Torre = new Torre(opcionesCorrectas[i]);
+                Assert.IsTrue(Torre.Torre.count >= 1, "Error");
             }
 
             for (int i = 0; i < opcionesErroneas.Length; i++) //Recorrer vectores Erroneos
             {
-
+                Assert.IsFalse(Torre.Torre.count < 1, "Error"); 
             }
-
         }
 
         [TestMethod]
