@@ -6,14 +6,14 @@ public class Torre
 	Jugador jugador = new Jugador();
 
 	public List<int> TorreJugador; 
+	//public int[] TorreJugador = { 1, 2, 3, 5 };
 	public Torre()
 	{
 		Random rd = new Random();
-        int pisos = rd.Next(0,11);
+        int pisos = rd.Next(1,11);
 
-		TorreJugador = new List<int>(pisos);
-
-		int posicion = rd.Next(0,pisos);
+		TorreJugador = new List<int>(){pisos};
+		int posicion = rd.Next(1,pisos);
 
 		//TorreJugador[posicion] = jugador; 
 	}
@@ -25,10 +25,10 @@ public class Torre
 		pisos = niveles;
 
 		Random rd = new Random();
-		List<int> TorreJugador = new List<int>(pisos);
+		TorreJugador = new List<int>(){pisos};
 
-		int posicion = rd.Next(0,pisos);
+		//int posicion = rd.Next(1,pisos);
 
-		//TorreJugador[posicion] = jugador;
+		//TorreJugador[posicion] = jugador; 
 	}
 }
