@@ -4,6 +4,7 @@ Miguel Angel Henao
 Luis Felipe Carmona
 Juan José Espitia
 Isabela Hernández 
+Maria Paula Anacona
 
 -----
 Acerca de la entrega:
@@ -18,3 +19,9 @@ Tambien, se nos dificultó alctualizar los valores de algunas clases desde otras
 para lograr hacer las pruebas unitarias.
 El hecho de asignar un jugador a una posición de la torre, nos sigue presentando 
 conflicto.
+
+En la rama de Lucho, se encuentran comentadas diversas pruebas que intentamos terminar, 
+pero no lo logramos.
+Debido a varios errores de compilación, no añadimos las demás y solo podemos entregar 2
+funcionales :c. (Que pena profe)
+
