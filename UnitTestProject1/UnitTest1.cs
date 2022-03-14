@@ -8,13 +8,44 @@ namespace UnitTestProject1
         [TestMethod]
         public void Crear_Torre()
         {
-            //Crear una torre con n niveles. Las torres siempre deben tener al menos un nivel
+            //Vectores de prueba (Valores arbitrarios)
+            int[] opcionesCorrectas = { 1, 3, 5, 7 };
+            int[] opcionesErroneas = { 0, -1, -3, -5 }; 
+
+            for (int i= 0; i < opcionesCorrectas.Length; i++) //Recorrer vectores correctos
+            {
+                Torre torre = new Torre(opcionesCorrectas[i]);
+                Assert.IsTrue(torre.TorreJugador.Count >= 1, "Error");
+            }
+
+            for (int i = 0; i < opcionesErroneas.Length; i++) //Recorrer vectores Erroneos
+            {
+                Torre torre = new Torre(opcionesErroneas[i]);
+                Assert.IsFalse(torre.TorreJugador.Count < 1, "Error"); 
+            }
         }
 
         [TestMethod]
         public void Crear_Personaje()
         {
-            //Crear un personaje con un valor inicial. Dicho valor siempre debe ser mayor a 0.
+            //Crear un personaje con un valor inicial. Dicho valor siempre debe ser mayor a 0.  
+
+            //Vectores de prueba (Valores arbitrarios)
+            int[] opcionesCorrectas = { 1, 3, 5, 7 };
+            int[] opcionesErroneas = { 0, -1, -3, -5 };
+
+            for (int i = 0; i < opcionesCorrectas.Length; i++) //Recorrer vectores correctos
+            {
+                Jugador jugador = new Jugador(opcionesCorrectas[i]);
+                Assert.IsTrue(jugador.puntos >= 1, "Error");
+            }
+
+            for (int i = 0; i < opcionesErroneas.Length; i++) //Recorrer vectores Erroneos
+            {
+                Jugador jugador = new Jugador(opcionesErroneas[i]);
+                Assert.IsFalse(jugador.puntos < 1, "Error");
+            } 
+
         }
 
         [TestMethod]
