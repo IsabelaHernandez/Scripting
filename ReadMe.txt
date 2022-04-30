@@ -22,6 +22,5 @@ conflicto.
 
 En la rama de Lucho, se encuentran comentadas diversas pruebas que intentamos terminar, 
 pero no lo logramos.
-Debido a varios errores de compilación, no añadimos las demás y solo podemos entregar 2
-funcionales :c. (Que pena profe)
+Debido a varios errores de compilación, no añadimos las demás.
 
